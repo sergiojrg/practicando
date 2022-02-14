@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <title>Pagina Web de practica</title>
+</head>
+<body>
+
+    <header>
+        <nav class="nav container">
+            <div class="nav__title">
+                Pagina Practica.
+            </div>
+            <div class="nav__links">
+                <a class="nav__link" href="#">Inicio</a>
+                <a class="nav__link" href="#">Acerca de</a>
+                <a class="nav__link" href="#">Contacto</a>
+                <a class="nav__link" href="#">Blog</a>
+            </div>
+            <div class="hamburger">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAFFJREFUSEvtlEkKADAIA83/H52eu1APZQShnquTBaqAR/D9+IA04fqIbDuVdXkgaRK9OcABL+pPu/Ud4A7wDnAAHlF/AN4BDujfwXewJoD/pgNrVBgZX2h0sgAAAABJRU5ErkJggg=="/>
+            </div>
+        </nav>
+
+        <section class="hero container">
+            <h1 class="hero__title">Practicando CSS3 y JS hasta dominarlo</h1>
+            <p class="hero__copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, quae.</p>
+            <a href="#" class="hero__cta">Entra para saber más</a>
+        </section>
+    </header>
+
+    <main>
+        <section class="about container">
+            <div class="about__textos">
+                <h2 class="subtitle">¿Que aprenderas en este curso?</h2>
+                <div class="about__copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sed ad consequatur dignissimos accusamus molestias.</div>
+            </div>
+            <div class="about__cards">
+                <div class="about__card">
+                    <img src="images/paint.svg" class="about__icon">
+                    <h3 class="about__title">CSS Layouts</h3>
+                    <p class="about__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem velit deleniti adipisci? Officiis fugit quos iure, accusamus iusto sequi quod!</p>
+                </div>
+                <div class="about__card">
+                    <img src="images/shapes.svg" class="about__icon">
+                    <h3 class="about__title">Animaciones</h3>
+                    <p class="about__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem velit deleniti adipisci? Officiis fugit quos iure, accusamus iusto sequi quod!</p>
+                </div>
+                <div class="about__card">
+                    <img src="images/code.svg" class="about__icon">
+                    <h3 class="about__title">SASS</h3>
+                    <p class="about__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem velit deleniti adipisci? Officiis fugit quos iure, accusamus iusto sequi quod!</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="knowledge">
+            <div class="knowledge__container container">
+                <div class="knowledge__textos">
+                    <h2 class="subtitle">Curso completo de css3 domina css de una vez por todas.</h2>
+                    <p class="knowledge__copy">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis facere cupiditate harum deserunt quo aspernatur quidem quaerat ex itaque error.</p>
+                    <a href="#" class="knowledge__cta">Entrar a ver</a>
+                </div>
+                <div class="knowledge__picture">
+                    <img src="images/macbook.png" class="knowledge__img" alt="mac">
+                </div>
+            </div>
+        </section>
+
+        <section class="prices container">
+            <h2 class="subtitle prices__subtitle">Obten el price perfecto para aprender</h2>
+
+            <div class="prices__container">
+                <div class="prices__item">
+                    <h3 class="prices__title">Flexbox</h3>
+                    <p class="prices__price">Free</p>
+                    <ul class="prices__plan">
+                        <li class="plan">Flexbox</li>
+                        <li class="plan">Layout</li>
+                        <li class="plan">Responsive</li>
+                    </ul>
+                    <a class="prices__cta">Empieza Ahora</a>
+                </div>
+                <div class="prices__item prices__item--best">
+                    <h3 class="prices__title">Flexbox</h3>
+                    <p class="prices__price">$40/mes</p>
+                    <ul class="prices__plan">
+                        <li class="plan">Flexbox</li>
+                        <li class="plan">Layout</li>
+                        <li class="plan">Responsive</li>
+                    </ul>
+                    <a class="prices__cta">Empieza Ahora</a>
+                </div>
+                <div class="prices__item">
+                    <h3 class="prices__title">Flexbox</h3>
+                    <p class="prices__price">Free</p>
+                    <ul class="prices__plan">
+                        <li class="plan">Flexbox</li>
+                        <li class="plan">Layout</li>
+                        <li class="plan">Responsive</li>
+                    </ul>
+                    <a class="prices__cta">Empieza Ahora</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="experiencia">
+            <div class="experiencia__container container">
+                <img src="images/leftarrow.svg" id="left" class="experiencia__arrow" alt="left">
+                <div class="experiencia__body experiencia__body--show" data-id="1">
+                    <div class="experiencia__textos">
+                        <div class="subtitle">Mi nombre es Sergio <span class="experiencia__span">estudiante de css</span></div>
+                        <p class="experiencia__copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, saepe tenetur? Blanditiis, doloremque? Fugit, doloremque blanditiis? Assumenda error iste cupiditate.</p>
+                    </div>
+                    <div class="experiencia__picture">
+                        <img src="images/face.jpg" class="experiencia__img" alt="face">
+                    </div>
+                </div>
+                <div class="experiencia__body" data-id="2">
+                    <div class="experiencia__textos">
+                        <div class="subtitle">Mi nombre es Julieta <span class="experiencia__span">estudiante de css</span></div>
+                        <p class="experiencia__copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, saepe tenetur? Blanditiis, doloremque? Fugit, doloremque blanditiis? Assumenda error iste cupiditate.</p>
+                    </div>
+                    <div class="experiencia__picture">
+                        <img src="images/face2.jpg" class="experiencia__img" alt="face">
+                    </div>
+                </div>
+                <div class="experiencia__body" data-id="3">
+                    <div class="experiencia__textos">
+                        <div class="subtitle">Mi nombre es Jorge <span class="experiencia__span">estudiante de css</span></div>
+                        <p class="experiencia__copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, saepe tenetur? Blanditiis, doloremque? Fugit, doloremque blanditiis? Assumenda error iste cupiditate.</p>
+                    </div>
+                    <div class="experiencia__picture">
+                        <img src="images/face3.jpg" class="experiencia__img" alt="face">
+                    </div>
+                </div>
+                <img src="images/rightarrow.svg" id="right" class="experiencia__arrow" alt="right">
+            </div>
+        </section>
+
+        <section class="questions__box container">
+            <h2 class="subtitle subtitle__questions">Preguntas frecuentes</h2>
+            <p class="questions__copy">Lorem ipsum dolor tetur adipisicing elit. Maiores, nesciunt?</p>
+
+            <div class="questions__container">
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <div class="questions-title__container">
+                            <h3 class="pregunta">¿Que es CSS?</h3>
+                            <div class="arrow__container">
+                                <img src="images/arrow.svg" class="questions__arrow" alt="arrow">
+                            </div>
+                        </div>
+                        <p class="questions__paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur pariatur iusto incidunt numquam alias, unde laudantium minima amet et quidem.</p>
+                    </div>
+                </article>
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <div class="questions-title__container">
+                            <h3 class="pregunta">¿Que es CSS Grid?</h3>
+                            <div class="arrow__container">
+                                <img src="images/arrow.svg" class="questions__arrow" alt="arrow">
+                            </div>
+                        </div>
+                        <p class="questions__paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur pariatur iusto incidunt numquam alias, unde laudantium minima amet et quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, nesciunt!</p>
+                    </div>
+                </article>
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <div class="questions-title__container">
+                            <h3 class="pregunta">¿Que aprendere en este curso?</h3>
+                            <div class="arrow__container">
+                                <img src="images/arrow.svg" class="questions__arrow" alt="arrow">
+                            </div>
+                        </div>
+                        <p class="questions__paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur pariatur iusto incidunt numquam alias, unde laudantium minima amet et quidem.</p>
+                    </div>
+                </article>
+            </div>
+
+        </section>
+
+        <section class="questions container">
+            <h1 class="questions__title">¿Estas listo para aprender CSS?</h1>
+            <p class="questions__copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro sunt incidunt ipsum atque corrupti minima est ad necessitatibus, ullam recusandae!</p>
+            <a href="#" class="questions__cta">Aprende ahora</a>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container container">
+            <h2 class="footer__title">Sergio RG</h2>
+            <ul class="footer__nav">
+                <li class="footer__link">Inicio</li>
+                <li class="footer__link">Acerca de</li>
+                <li class="footer__link">Contacto</li>
+                <li class="footer__link">Blog</li>
+            </ul>
+            <form class="footer__form">
+                <label for="email" class="form__title">Subscribete a la newsletter</label>
+                <div class="footer__inputs">
+                    <input type="email" placeholder="Email:" name="email" class="form__input" id="email">
+                    <input type="submit" class="form__submit">
+                </div>
+            </form>
+        </div>
+        <div class=" container social-media">
+            <div class="social-media__icons">
+                <img src="images/facebook.svg" class="icon">
+                <img src="images/twitter.svg" class="icon">
+                <img src="images/youtube.svg" class="icon">
+            </div>
+            <p class="social-media__rights">Derechos reservados &copy; SergioRG</p>
+        </div>
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="js/slider.js"></script>
+    <script src="js/questions.js"></script>
+    <script src="js/menu.js"></script>
+    
+</body>
+</html>
